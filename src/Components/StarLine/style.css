@@ -1,0 +1,46 @@
+.star-icon-wrapper {
+  text-align: center;
+  margin: 20px;
+}
+.star-icon {
+  color: white;
+
+}
+.star-icon-black {
+  color: #000;
+}
+
+.star-icon {
+  position: relative;
+}
+
+ .star-icon::before {
+  display: block;
+  width: 170px;
+  content: '';
+  height: 5px;
+  right: 40px;
+  top: 50%;
+  position: absolute;
+  background: white;
+  border-radius: 10px;
+}
+
+.star-icon::after {
+  content: '';
+  display: block;
+  width: 170px;
+  height: 5px;
+  background: white;
+  left:40px;
+  top: 50%;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.star-icon-black::before {
+  background: black;
+}
+.star-icon-black::after {
+  background: black;
+}

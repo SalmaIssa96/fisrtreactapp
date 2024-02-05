@@ -1,0 +1,26 @@
+.card {
+  position: relative;
+}
+.card .overlay {
+  opacity: 0;
+  background-color: #1abc9ce6;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  justify-content: center;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.modal-image {
+  width: 600px;
+}
+
